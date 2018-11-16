@@ -33,7 +33,7 @@ if (($_SESSION['role']) == null) {
             </div>
             <div class="form-group col-md-4">
                 <label for="file_location">File Drawer Location</label>
-                <input type="text" name="file_location" class="form-control" placeholder="As found in library">
+                <input type="text" name="file_location" class="form-control" placeholder="As found in library" required>
             </div>
             <div class="form-group col-md-4">
                 <label for="state">Select state (choose one):</label>

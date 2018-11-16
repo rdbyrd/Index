@@ -55,7 +55,7 @@ if (!$query) {
             </div>
             <div class="form-group col-md-4">
                 <label for="file_location">File Drawer Location</label>
-                <input type="text" name="file_location" class="form-control" value="<?php echo $data['file_location'] ?>">
+                <input type="text" name="file_location" class="form-control" value="<?php echo $data['file_location'] ?>" required>
             </div>
             <div class="form-group col-md-4">
                 <label for="state">State:</label>
