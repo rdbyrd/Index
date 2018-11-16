@@ -68,16 +68,16 @@ if (!$query) {
         <div class="form-row">
 
             <div class="form-group col-md-4">
+                <label for="alias">Keywords</label>
+                <input type="text" name="keywords" class="form-control" value="<?php echo $data['keywords'] ?>">
+            </div>
+            <div class="form-group col-md-4">
                 <label for="related files">Related Resources</label>
                 <input type="text" name="related" class="form-control" value="<?php echo $data['related'] ?>">
             </div>
             <div class="form-group col-md-4">
                 <label for="alias">Alias/Other Names</label>
                 <input type="text" name="alias" class="form-control" value="<?php echo $data['alias'] ?>">
-            </div>
-            <div class="form-group col-md-4">
-                <label for="alias">Keywords</label>
-                <input type="text" name="keywords" class="form-control" value="<?php echo $data['keywords'] ?>">
             </div>
 
         </div>

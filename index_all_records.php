@@ -2,6 +2,7 @@
 /*
  * Ryan Byrd
  * 9/10/2018
+ * index_all_records.php
  * Get all records from the database and display them by file name.
  */
 
